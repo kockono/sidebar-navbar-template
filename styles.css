@@ -1,0 +1,77 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  top: 4rem;
+  z-index: 1;
+}
+
+.side-nav-content {
+  color: white;
+  width: 230px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  height: 100%;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+
+.nav-list-item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.nav-list-item i {
+  font-size: 20px;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.nav-list-item span {
+  width: 120px;
+  text-transform: capitalize;
+}
+
+.app-side-bar {
+  position: fixed;
+  left: 0rem;
+  width: 250px;
+  height: calc(100vh);
+  box-shadow: 0px 0px 10px rgb(116, 0, 0);
+  background-color:  rgb(163, 0, 30);
+  overflow-x: hidden;
+  white-space: nowrap;
+
+}
+
+.app-side-nav-open {
+  width: 250px;
+}
+
+.display-area {
+  position: absolute;
+  left: 250px;
+  width: calc(100% - 250px);
+  background-color: rgb(246, 246, 246);
+  height: 100vh;
+}
+
+
+.display-area-shrink {
+  width: calc(100% - 250px);
+  left: 250px;
+}
